@@ -1,0 +1,18 @@
+.pics {
+    padding-left: 50px;
+    margin-bottom: 50px;
+    background-color: goldenrod;
+    height: 350px;
+    padding-top: 45px;
+}
+.fa-ribbon {
+    color: goldenrod;
+}
+.title {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+body {
+    background-image: url("../assets/images/background-image.jpg");
+    
+}
