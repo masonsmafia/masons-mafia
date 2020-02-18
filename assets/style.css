@@ -155,6 +155,17 @@ p{
 .ig {
     height: 35px;
     width: 35px;
-    margin-left: 450px;
-
 }
+.foot-icons{ /* div */
+    height: 100%;
+    display: flex;
+    padding: auto 7rem;
+    justify-content: center;
+}
+.icons{
+    height: 30%;
+    width: auto;
+    margin: auto 20px;
+}
+.credit {
+color: grey;}
