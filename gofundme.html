@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GoFundMe</title>
+    <title>Donate</title>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,22 +14,16 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <a class="navbar-brand" style="color: white; font-size: 20px;" href="index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" style="color: white; font-size: 20px;" href="#">Events<span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" style="color: white; font-size: 20px;" href=" gofundme.html">Donate</a>
-                    <a class="nav-item nav-link" style="color: white;font-size: 20px;" href="merch.html">Merch</a>
-                    <a class="nav-item nav-link" style="color: white;font-size: 20px;" href="blog.html">Blog</a>
-                </div>
-            </div>
-        </nav>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="blog.html">Blog</a>
+            <a href="gofundme.html" class="active">Donate</a>
+            <a href="merch.html">Merch</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
         <h1 class="title" style="text-align: center; font-size: 70px;"><i class="fa fa-ribbon"></i>Donate Now<i
                 class="fa fa-ribbon"></i> </h1>
 

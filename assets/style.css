@@ -21,7 +21,7 @@ body {
     height: auto;
   }
   .topnav {
-    background-color: #333;
+    background-color: rgba(29, 27, 27, 0.904);
     overflow: hidden;
   }
 
