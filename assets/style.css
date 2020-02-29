@@ -110,10 +110,6 @@ font-family: 'Teko', sans-serif;
 p{
     line-height: 30px;  
 }
-.about-me{
-    width: 100%;
-    padding: 4rem 4rem;
-}
 .w-i-d {
     text-align: center;
     display: flex;
